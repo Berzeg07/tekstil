@@ -601,7 +601,8 @@ h1 {
   @media screen and (min-width: 992px) {
     .content__actions {
       padding: 26px 57px;
-      margin-top: -46px; } }
+      margin-top: -46px;
+      padding-bottom: 0; } }
 
 @media screen and (min-width: 768px) {
   .action-box {
@@ -656,5 +657,41 @@ h1 {
     font-family: "Arial";
     color: #b3b4b4;
     padding-top: 0; }
+
+.header-img__contact {
+  background: url(../img/cont.jpg) no-repeat top center;
+  background-size: cover; }
+
+.contact-box {
+  border-top: 1px solid #BED2E0;
+  padding-top: 56px; }
+  @media screen and (min-width: 768px) {
+    .contact-box__right {
+      width: 70%;
+      float: right; } }
+  @media screen and (min-width: 768px) {
+    .contact-box__left {
+      width: 30%;
+      float: left; } }
+  .contact-box__left_item {
+    padding: 32px 25px; }
+    .contact-box__left_item span {
+      letter-spacing: 1px;
+      font-size: 36px;
+      font-family: "BravoSC";
+      color: #131712; }
+    .contact-box__left_item span:nth-child(1) {
+      font-weight: 600;
+      padding-bottom: 9px; }
+    .contact-box__left_item .cont-sp {
+      font-size: 20px;
+      letter-spacing: 0px; }
+      @media screen and (min-width: 992px) {
+        .contact-box__left_item .cont-sp {
+          font-size: 30px; } }
+    .contact-box__left_item .cont-sp1 {
+      padding-bottom: 15px; }
+  .contact-box__left_item:nth-child(2) {
+    background: #F0EFEF; }
 
 /*# sourceMappingURL=style.css.map */
