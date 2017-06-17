@@ -1,29 +1,31 @@
 	<div class="container">
 		<div class="row">
-			<div class="footer">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="footer">
 
-				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
-					<div class="footer-menu__box">
+					<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+						<div class="footer-menu__box">
+							<ul>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Продукция</a></li>
+								<li><a href="#">Оборудование</a></li>
+							</ul>
+						</div>
+
 						<ul>
-							<li><a href="#">О компании</a></li>
-							<li><a href="#">Продукция</a></li>
-							<li><a href="#">Оборудование</a></li>
+							<li><a href="#">Комплектующие</a></li>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Контакты</a></li>
 						</ul>
+						<div class="clear"></div>
 					</div>
 
-					<ul>
-						<li><a href="#">Комплектующие</a></li>
-						<li><a href="#">Акции</a></li>
-						<li><a href="#">Контакты</a></li>
-					</ul>
-					<div class="clear"></div>
-				</div>
+					<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+						<p>Webrazavr 2017</p>
+					</div>
+					<div class="clearfix"></div>
 
-				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-					<p>Webrazavr 2017</p>
 				</div>
-				<div class="clearfix"></div>
-
 			</div>
 		</div>
 	</div>
