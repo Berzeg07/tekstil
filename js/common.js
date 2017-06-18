@@ -120,11 +120,11 @@ $(document).ready(function(){
 
     var owlcart = $(".owl-product-carousel");
     owlcart.owlCarousel({
-        loop:false,
+        loop:true,
         nav:true,
         autoplay:false,
         smartSpeed:1000,
-        margin:10,
+        margin:0,
         mouseDrag:false,
         touchDrag: false,
         center:false,
@@ -144,15 +144,14 @@ $(document).ready(function(){
             }
         }
     });
-
     $('.product__tabs a').on('click', function (e) {
         e.preventDefault();
         $('.product__tabs a').removeClass('product__activetab');
         $(this).addClass('product__activetab');
         var tab = $(this).attr('href');
         tab = '.' + tab;
-        $('.product__tab-block').not(tab).css({'display':'none'});
-        $(tab).css({'display':'block'});
+        $('.product__tab-block').not(tab).css({'height':'0'});
+        $(tab).css({'height':'auto'});
     });
 /////////////////
 
