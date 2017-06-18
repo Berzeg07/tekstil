@@ -165,7 +165,10 @@
       float: right; }
       .stitches__formbox .form-box__about {
         margin-top: 0px;
-        margin-right: 19px;
+        margin-right: 15px;
         float: left; } }
+  @media only screen and (min-width: 1200px) {
+    .stitches__formbox .form-box__about {
+      margin-right: 19px; } }
 
 /*# sourceMappingURL=style-df.css.map */
