@@ -1,3 +1,6 @@
+.clear {
+  clear: both; }
+
 .header-img__machine {
   background: #F0EFEF url(../img/machinebg.jpg) no-repeat right top;
   background-size: cover; }
@@ -80,5 +83,89 @@
         padding-bottom: 20px; }
       .machine__formbox .form-box__about .form-box p {
         padding-left: 27px; } }
+
+.stitches__block {
+  max-width: 1085px;
+  padding-top: 12px;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .stitches__block {
+      padding: 12px 5% 0 5%; } }
+  @media only screen and (min-width: 1200px) {
+    .stitches__block {
+      padding: 12px 0 0 0;
+      margin-bottom: 22px; } }
+
+.stitches__link {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background-color: #f9f9f9;
+  margin: 0 10px 22px 10px;
+  position: relative;
+  transition: 0.4s; }
+  .stitches__link:hover:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.53;
+    background-color: black;
+    z-index: 2;
+    transition: 0.4s; }
+  .stitches__link:hover .stitches__hoverbox {
+    opacity: 1; }
+  @media only screen and (min-width: 992px) {
+    .stitches__link {
+      margin: 0 12px 25px 12px;
+      float: left; } }
+  @media only screen and (min-width: 1200px) {
+    .stitches__link {
+      margin: 0 15px 50px 15px; } }
+
+.stitches__img {
+  width: 150px;
+  height: 150px; }
+  .stitches__img img {
+    width: 100%;
+    height: 100%; }
+
+.stitches__hoverbox {
+  color: white;
+  font-family: Arial;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px;
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0; }
+  .stitches__hoverbox h4 {
+    font-size: 18px;
+    text-transform: uppercase; }
+  .stitches__hoverbox span {
+    font-size: 12px; }
+
+.stitches__formbox {
+  display: block;
+  text-align: left;
+  margin: 0 auto; }
+  .stitches__formbox .form-box__about {
+    margin: 0 auto;
+    float: none; }
+  @media only screen and (min-width: 992px) {
+    .stitches__formbox {
+      float: right; }
+      .stitches__formbox .form-box__about {
+        margin-top: 0px;
+        margin-right: 19px;
+        float: left; } }
 
 /*# sourceMappingURL=style-df.css.map */
