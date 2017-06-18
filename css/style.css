@@ -282,7 +282,12 @@ h2 {
     display: inline-block;
     font-size: 14px;
     color: #131712;
-    line-height: 59px; }
+    line-height: 59px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .main-top__box a:hover {
+      background: black;
+      color: #fff; }
   .main-top__box_left {
     padding-top: 174px;
     padding-bottom: 99px;
@@ -401,7 +406,12 @@ h2 {
     font-size: 12px;
     color: white;
     text-transform: uppercase;
-    line-height: 60px; }
+    line-height: 60px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    .form-box__txt a:hover {
+      background: #fff;
+      color: black; }
     @media screen and (min-width: 998px) {
       .form-box__txt a {
         padding: 0 31px; } }
@@ -492,7 +502,12 @@ h2 {
     color: white;
     text-align: center;
     line-height: 64px;
-    background: #131712 url(../img/kr.png) no-repeat left 23px center; }
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background: #131712; }
+    .box-bottom a:hover {
+      background: #fff;
+      color: black; }
   .box-bottom ul {
     padding-top: 52px; }
     .box-bottom ul li {

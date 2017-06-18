@@ -22,7 +22,7 @@
 						Стегальные услуги – любимое дело<br/> 
 						для специалистов компании Алтик!
 					</p>
-					<a href="#">о нас</a>
+					<a href="about.php">о нас</a>
 				</div>
 
 			</div>
@@ -30,7 +30,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 
 				<div class="main-top__box main-top__box_right">
-					<a href="#">как нас найти?</a>
+					<a href="contact.php">как нас найти?</a>
 				</div>
 
 			</div>
@@ -73,8 +73,8 @@
 							так и на ткани производителя.
 						</p>
 						<div class="form-box__txt_but">
-							<a class="form-but1" href="#">Комплектующие</a>
-							<a class="form-but2" href="#">Ткани</a>
+							<a class="form-but1" href="complect.php">Комплектующие</a>
+							<a class="form-but2" href="product.php">Ткани</a>
 						</div>
 					</div>
 
@@ -113,7 +113,7 @@
 						<b>КАЧЕСТВЕННЫЙ ТОВАР</b><br/>
 						ПО ДОСТУПНЫМ ЦЕНАМ
 					</p>
-					<a href="#">рисунки стежки</a>
+					<a href="stitches.php">рисунки стежки</a>
 					<ul>
 						<li><img src="img/m1.png" alt=""></li>
 						<li><img src="img/m2.png" alt=""></li>

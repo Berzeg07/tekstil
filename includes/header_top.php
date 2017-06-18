@@ -28,7 +28,7 @@
 			<span>+7 (925)104-58-04</span>
 		</div>
 		<div class="header-number__right">
-			<a href="#">контакты</a>
+			<a href="contact.php">контакты</a>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -38,13 +38,13 @@
 			<i class="fa fa-bars" aria-hidden="true"></i>
 		</div>
 		<ul class="main-menu">
-			<li><a href="#">О компании</a></li>
-			<li><a href="#">Продукция</a></li>
-			<li><a href="#">Оборудование</a></li>
-			<li><a href="#">рисунки стежки</a></li>
-			<li><a href="#">комплектующие</a></li>
-			<li><a href="#">акции</a></li>
-			<li><a href="#"><img src="img/main-ico.png" alt=""></a></li>
+			<li><a href="about.php">О компании</a></li>
+			<li><a href="product.php">Продукция</a></li>
+			<li><a href="machine.php">Оборудование</a></li>
+			<li><a href="stitches.php">рисунки стежки</a></li>
+			<li><a href="complect.php">комплектующие</a></li>
+			<li><a href="actions.php">акции</a></li>
+			<li><a href="index.php"><img src="img/main-ico.png" alt=""></a></li>
 		</ul>
 	</div>
 
