@@ -757,4 +757,44 @@ h2 {
 .about-content h2 {
   padding-top: 70px; }
 
+.error-wrap {
+  background: url(../img/error.jpg) no-repeat top center; }
+  .error-wrap .error-box {
+    text-align: center;
+    color: #fff;
+    font-family: "BravoSC";
+    padding-top: 160px; }
+    .error-wrap .error-box span {
+      font-size: 269px;
+      letter-spacing: 14px;
+      text-transform: uppercase; }
+    .error-wrap .error-box p {
+      font-size: 33px;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding-bottom: 60px; }
+    .error-wrap .error-box a {
+      font-family: "Arial";
+      width: 260px;
+      display: inline-block;
+      height: 66px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #0d0d0d;
+      line-height: 70px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+    .error-wrap .error-box .error-but1 {
+      background-color: #fff600;
+      margin-right: 10px; }
+      .error-wrap .error-box .error-but1:hover {
+        background: orange; }
+    .error-wrap .error-box .error-but2 {
+      background-color: #FFFFFF; }
+      .error-wrap .error-box .error-but2:hover {
+        background: black;
+        color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
