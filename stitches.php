@@ -24,7 +24,7 @@
 			</div>
 		</div>
 
-		<div class="complect-title complect-title__product">
+		<div class="complect-title">
 			<h1>рисунки стежки</h1>
 		</div>
 
