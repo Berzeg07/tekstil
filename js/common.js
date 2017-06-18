@@ -8,23 +8,23 @@ $(document).ready(function(){
 	// Конец Мобильное меню
 
 	// Слайдер swiper
-	var swiper = new Swiper('.swiper-container', {
-		pagination: '.swiper-pagination',
-		effect: 'coverflow',
-		grabCursor: true,
-		centeredSlides: true,
-		loop: true,
-		spaceBetween: -250,
-		slidesPerView: 'auto',
-		coverflow: {
-			rotate: 50,
-			stretch: 0,
-			depth: 100,
-			modifier: 1,
-			slideShadows : true,
+	// var swiper = new Swiper('.swiper-container', {
+	// 	pagination: '.swiper-pagination',
+	// 	effect: 'coverflow',
+	// 	grabCursor: true,
+	// 	centeredSlides: true,
+	// 	loop: true,
+	// 	spaceBetween: -250,
+	// 	slidesPerView: 'auto',
+	// 	coverflow: {
+	// 		rotate: 50,
+	// 		stretch: 0,
+	// 		depth: 100,
+	// 		modifier: 1,
+	// 		slideShadows : true,
 
-		}
-	});
+	// 	}
+	// });
 
     // Fancybox
     $("a[rel=group]").fancybox({
@@ -100,18 +100,64 @@ $(document).ready(function(){
     	$('.current_item .item-title').removeClass('hide');
     	$('.current_item .item-someth').removeClass('hide');
     }
-    $(function() {
-    	$("#mySlider2").AnimatedSlider( { prevButton: "#btn_prev2", 
-    		nextButton: "#btn_next2",
-    		visibleItems: 5,
-    		infiniteScroll: true,
-    		willChangeCallback: function(obj, item) { $("#statusText").text("Will change to " + item); },
-    		changedCallback: function(obj, item) { $("#statusText").text("Changed to " + item); }
-    	});
-    	$('#btn_next2, #btn_prev2').click(function(){
-    		func1();
-    	});
-    	func1();
+    // $(function() {
+    // 	$("#mySlider2").AnimatedSlider( { prevButton: "#btn_prev2", 
+    // 		nextButton: "#btn_next2",
+    // 		visibleItems: 5,
+    // 		infiniteScroll: true,
+    // 		willChangeCallback: function(obj, item) { $("#statusText").text("Will change to " + item); },
+    // 		changedCallback: function(obj, item) { $("#statusText").text("Changed to " + item); }
+    // 	});
+    // 	$('#btn_next2, #btn_prev2').click(function(){
+    // 		func1();
+    // 	});
+    // 	func1();
+    // });
+
+
+
+    //slider product + tab
+
+    var owlcart = $(".owl-product-carousel");
+    owlcart.owlCarousel({
+        loop:true,
+        nav:true,
+        autoplay:false,
+        smartSpeed:1000,
+        margin:0,
+        mouseDrag:false,
+        touchDrag: false,
+        center:false,
+        navText:['<span class="prev-left"></span>','<span class="next-right"></span>'],
+        responsive:{
+            0:{
+                items:1
+            },
+            320:{
+                items:1
+            },
+            750:{
+                items:1
+            },
+            1200:{
+                items:1
+            }
+        }
     });
+    $('.product__tabs a').on('click', function (e) {
+        e.preventDefault();
+        $('.product__tabs a').removeClass('product__activetab');
+        $(this).addClass('product__activetab');
+        var tab = $(this).attr('href');
+        tab = '.' + tab;
+        $('.product__tab-block').not(tab).css({'height':'0'});
+        $(tab).css({'height':'auto'});
+    });
+/////////////////
+
+
+
+
+
 
 });//END READY
